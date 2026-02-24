@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/invitaciones-boda//_next/:path+",
+        "destination": "/invitaciones-boda/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
